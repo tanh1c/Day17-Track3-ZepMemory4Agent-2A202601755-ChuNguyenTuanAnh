@@ -1,0 +1,18 @@
+E09 long_term: Lan uu tien stack backend nao cho LOTUS-88?
+  PASS  1892.2 ms
+E02 long_term: Voi demo ca nhan cua Minh, ngon ngu uu tien la gi?
+  PASS  1661.6 ms
+E03 long_term: Minh con open loop hay deadline nao chua hoan thanh?
+  PASS  1306.7 ms
+E08 long_term: Backend cua BLUEBIRD-42 bat buoc dung stack gi?
+  PASS  1713.7 ms
+           Benchmark summary
+┏━━━━━━┳━━━━━━━━━━━┳━━━━━━┳━━━━━━━━━━━━┓
+┃ Case ┃ Layer     ┃ Pass ┃ Latency ms ┃
+┡━━━━━━╇━━━━━━━━━━━╇━━━━━━╇━━━━━━━━━━━━┩
+│ E09  │ long_term │ yes  │     1892.2 │
+│ E02  │ long_term │ yes  │     1661.6 │
+│ E03  │ long_term │ yes  │     1306.7 │
+│ E08  │ long_term │ yes  │     1713.7 │
+└──────┴───────────┴──────┴────────────┘
+Reports: /workspace/reports/benchmark.json | /workspace/reports/benchmark.md

@@ -1,0 +1,13 @@
+E04 episodic: Lan truoc Minh fix async HTTP timeout bang cach nao?
+  PASS  522.2 ms
+E05 episodic: Reflection cua su co async la gi, tang timeout co phai root fix
+khong?
+  PASS  289.1 ms
+           Benchmark summary
+┏━━━━━━┳━━━━━━━━━━┳━━━━━━┳━━━━━━━━━━━━┓
+┃ Case ┃ Layer    ┃ Pass ┃ Latency ms ┃
+┡━━━━━━╇━━━━━━━━━━╇━━━━━━╇━━━━━━━━━━━━┩
+│ E04  │ episodic │ yes  │      522.2 │
+│ E05  │ episodic │ yes  │      289.1 │
+└──────┴──────────┴──────┴────────────┘
+Reports: /workspace/reports/benchmark.json | /workspace/reports/benchmark.md
